@@ -1,6 +1,4 @@
-# Payment Gateway Integration
-
-## The Sparks Foundation Intership
+# The Sparks Foundation Intership
 ## Task 3 - Payment Gateway Integration
 
 ### Description : 
