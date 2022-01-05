@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("images/poverty.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo>img {
+    width: 60px;
+}
+.logo>h2 {
+    margin-left: 20px;
+}
+
+.menu {
+    margin-right: 3em;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu>li {
+    list-style: none;
+    display: inline-block;
+    margin: 15px 20px;
+    position: relative;
+}
+.menu>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu>li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: dodgerblue;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.menu>li:hover::after {
+    width: 100%;
+}
+
+.header {
+    margin: 12em;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(16, 128, 224, 0.5);
+    padding-top: 10px;
+    padding-bottom: 2em;
+}
+.header>h1 {
+    font-size: 30px;
+}
+.header>p {
+    font-size: 18px;
+    font-family: Segoe UI;
+    padding-bottom: 20px;
+}
+.header>a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 20px solid dodgerblue;
+    background-color: dodgerblue;
+    border-radius: 50px;
+}
+.header>a:hover {
+    color: black;
+    transition: 0.5s;
+}
+
+footer {
+    width: 100%;
+    padding-top: 3em;
+    margin-bottom: -20px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+footer>div {
+    display: grid;
+    grid-template-columns: [one] 30% [two] 40% [three] 30%;
+}
+footer>div>div {
+    margin-left: 10em;
+    display: flex;
+    flex-direction: column;
+}
+.footer_About>p {
+    font-size: 18px;
+    color: rgb(170, 167, 167);
+}
+.footer_Link>a {
+    color: rgb(170, 167, 167);
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.footer_Connect {
+    margin-left: 0em;
+}
+.footer_Connect>div {
+    display: flex;
+    flex-direction: row;
+}
+.footer_Connect>div>a {
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    padding: 15px 15px;
+    margin: 10px 10px;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 60px;
+}
+footer>p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer>p>a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+footer>p>a:hover {
+    transition: 0.5s;
+    color: white;
+}
