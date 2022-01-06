@@ -21,3 +21,5 @@
 ### Live Project link: https://jaganath-msj.github.io/Payment_Gateway_Integration/
 
 ### YouTube link: https://youtu.be/FPMUJDZPYOY
+
+### LinkedIn link: https://www.linkedin.com/posts/activity-6884861613485252608-a9_I
